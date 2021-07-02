@@ -1,0 +1,72 @@
+body {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    padding: 10px 0;
+}
+input {
+    padding-bottom: 10px;
+    height: 30px;
+    border: 1px solid rgb(255, 188, 100);
+}
+
+input:focus {
+    border: 1px solid rgb(255, 188, 100);
+    box-shadow: 0 0 10px rgb(255, 188, 100);
+}
+
+.mainArea{
+    width: 100%;
+    height: auto;
+}
+.mainArea .mainTitle {
+    text-align: center;
+    color:rgb(233, 149, 39);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.mainArea .form-group {
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+    width: 768px;
+    margin: 0 auto;
+}
+
+.mainArea #btn-submit {
+    width: 768px;
+    height: 35px;
+    background-color: rgb(255, 188, 100);
+    border: none;
+    margin: 20px auto;
+    position: relative;
+    left: 300px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mainArea .mainTable {
+    width: 768px;
+    margin: 10px auto;
+    
+}
+.mainTable{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+ table thead tr th{
+    border-top: 1px solid rgb(255, 188, 100);
+    border-bottom: 1px solid rgb(255, 188, 100);
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+}
